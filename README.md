@@ -27,6 +27,6 @@ For calculations without figure generation: `python reproduce.py --calculations-
 
 ## Citation and licenses
 
-Citation: [CITATION.cff](CITATION.cff).
+Citation: [10.5281/zenodo.23757111](https://doi.org/10.5281/zenodo.23757111) ([CITATION.cff](CITATION.cff)).
 
 Code and documentation: [MIT](LICENSE). Model inputs, data and figures: [CC BY 4.0](LICENSE-DATA.md).

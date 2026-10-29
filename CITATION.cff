@@ -3,6 +3,8 @@ message: "Citation for the code and data."
 type: software
 title: "Code and data for Oscillation-relaxation bounds for Markov jump processes"
 version: "1.0.0"
+doi: "10.5281/zenodo.23757111"
+date-released: "2026-10-29"
 authors:
   - family-names: Liu
     given-names: Kangqiao
