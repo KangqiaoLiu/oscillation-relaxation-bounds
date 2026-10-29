@@ -1,0 +1,9 @@
+state,smFRET_signal,electrophysiology_signal
+S1,low FRET,no current
+S2,low FRET,no current
+S3,high FRET,no current
+S4,high FRET,no current
+S5,high FRET,current
+S6,high FRET,current
+S7,high FRET,no current
+S8,high FRET,no current

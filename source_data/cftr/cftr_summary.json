@@ -1,0 +1,58 @@
+{
+  "provenance": {
+    "model": "Levring et al. 2023 CFTR 8-state kinetic simulation scheme",
+    "article": {
+      "citation": "Levring J, Terry DS, Kilic Z, Fitzgerald G, Blanchard SC, Chen J. CFTR function, pathology and pharmacology at single-molecule resolution. Nature 616, 606-614 (2023).",
+      "doi": "10.1038/s41586-023-05854-7",
+      "url": "https://www.nature.com/articles/s41586-023-05854-7",
+      "license": "CC BY 4.0"
+    },
+    "supplement": {
+      "url": "https://static-content.springer.com/esm/art%3A10.1038%2Fs41586-023-05854-7/MediaObjects/41586_2023_5854_MOESM1_ESM.pdf",
+      "used_sections": [
+        "Supplementary Methods, lines 9-40: CTMC equations and generator matrix",
+        "Supplementary Table 1: state signal assignments",
+        "Supplementary Table 2: kinetic rate parameters used in simulations",
+        "Extended Data Fig. 10a: topology and rates of simulated model"
+      ]
+    },
+    "condition": {
+      "ATP_uM": 3000.0,
+      "description": "fully phosphorylated WT CFTR at 3 mM ATP"
+    }
+  },
+  "raw_model": {
+    "complex_mode_count": 1,
+    "leading_complex_eigenvalue": {
+      "real": -2.7949727310507355,
+      "imag": 2.093806402466698,
+      "lhs_dimensional": 1.5685395432686084
+    },
+    "finite_entropy_production": false,
+    "reason": "published generator has hard-zero reverse rates q65=q76=q87=0"
+  },
+  "epsilon_reference": 1e-06,
+  "epsilon_reference_metrics": {
+    "eigenvalue_real": -2.7949727799765522,
+    "eigenvalue_imag": 2.09380568221532,
+    "lhs_dimensional": 1.5685384366834298,
+    "sigma": 29.87237829764077,
+    "R": 0.05250798651031104,
+    "K": 1.3283272082677353,
+    "Kstar": 7.570359124820111,
+    "Env": 1.2210325014603565,
+    "BHL": 0.9783102249700198,
+    "pi_min": 0.0002132009430509718,
+    "pi_max": 0.4014446991132291,
+    "h_min": 0.0004972332746680837,
+    "h_max": 7.570359124820111,
+    "w_max": 0.3448891820458083,
+    "complex_mode_count": 1
+  },
+  "output_files": [
+    "cftr_levring_2023_rates.csv",
+    "cftr_levring_2023_states.csv",
+    "cftr_levring_2023_epsilon_sensitivity.csv",
+    "cftr_levring_2023_state_profile_eps1e-6.csv"
+  ]
+}

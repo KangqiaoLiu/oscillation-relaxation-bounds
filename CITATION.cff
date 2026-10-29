@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite this software and the original model sources identified in README.md."
+type: software
+title: "Code and data for Oscillation-relaxation bounds for Markov jump processes"
+version: "1.0.0"
+authors:
+  - family-names: Liu
+    given-names: Kangqiao
+    affiliation: "School of Science, Xihua University; Key Laboratory of High Performance Scientific Computation, Xihua University"
+  - family-names: Gong
+    given-names: Zongping
+    affiliation: "Department of Applied Physics, The University of Tokyo"
+repository-code: "https://github.com/KangqiaoLiu/oscillation-relaxation-bounds"
+license: MIT
+abstract: >-
+  Code and source data accompanying Oscillation-relaxation bounds for Markov
+  jump processes by Kangqiao Liu and Zongping Gong. The package reproduces
+  heterogeneous-ring examples, a six-state network with coupled cycles, and
+  the published eight-state wild-type cystic fibrosis transmembrane conductance
+  regulator (CFTR) kinetic model. It includes an independent increased-precision
+  reconstruction of Figure 1, a four-state entropy-production example, and
+  sampled-dissipation and heterogeneity-localization calculations for Shiraishi's
+  three-layer model. Model inputs, source-data definitions, fixed dependencies,
+  reproduction instructions, and original model attributions are provided.
+  The code is licensed under MIT; the data and figures are licensed under
+  Creative Commons Attribution 4.0 International.
+keywords:
+  - stochastic thermodynamics
+  - Markov jump processes
+  - oscillation-relaxation bounds
+  - entropy production
+  - eigenmodes
